@@ -1,0 +1,12 @@
+:root { --text-highlight-color: #F3D1CE; }
+
+
+.highlight.highlighted {
+    background-position: -100%;
+}
+.highlight {
+    background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,var(--text-highlight-color,#fe9) 0);
+    background-size: 200%;
+    background-position: 0;
+    transition: background-position .8s;
+}
